@@ -16,7 +16,7 @@ public class JavaApp_02_BekerSzazig {
             }else{
                 paratlan++;
             }
-        } while (i<=100);
+        } while (i<100);
         
         String s;
         s = String.format("A bekért számok közül %d páros és %d páratlan.", paros, paratlan);
